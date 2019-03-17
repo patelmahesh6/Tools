@@ -67,5 +67,15 @@ docker commit -c 'CMD ["redis-server"]' f307b9924184
 docker run -p 8080:8080 panthera6/simpleweb:0.01
 docker build -t panthera6/simpleweb:0.01 .
 
+docker-compose up
+docker-compose up --build
+
+# background
+docker run -d redis
+
+docker-compose up -d
+docker-compose down
+
+docker-compose ps
 
 
