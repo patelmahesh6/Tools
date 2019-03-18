@@ -15,6 +15,6 @@ CMD ["npm", "run", "start"]
 #
 # Map the ports (local:remote), use the remote volume for node_modules (do not try to map/reference) 
 # and map/reference the other directories/files
-#   docker run -p 3000:3000 -v /usr/app/node_modules -v $(pwd):/usr/app 81275fec7a56
+#   docker run -p 3000:3000 -v /usr/app/node_modules -v $(pwd):/usr/app b909308bac6b
 #
 # or use docker-compose instead :)
