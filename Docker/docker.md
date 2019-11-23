@@ -78,4 +78,5 @@ docker-compose down
 
 docker-compose ps
 
-
+Build from a file
+docker build -f Dockerfile.dev .
